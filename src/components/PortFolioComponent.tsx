@@ -3,14 +3,13 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import {EffectCoverflow, Pagination, Navigation } from "swiper";
+import { Pagination, Navigation, Autoplay } from "swiper";
 import "./../style.css";
-import PortFoloiCard from './PortFoloiCard';
 import NewsCard from './NewsCard';
 
 function PortFolioComponent() {
     return (
-        <Swiper grabCursor={true} slidesPerView={3} pagination={{clickable:true}} navigation={true} modules={[Pagination, Navigation]}  breakpoints={{
+        <Swiper grabCursor={true}  slidesPerView={3} pagination={{clickable:true}} navigation={true} modules={[Pagination, Navigation, Autoplay]}  breakpoints={{
             425: {
               slidesPerView: 1,
               spaceBetween: 20,

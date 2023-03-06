@@ -6,7 +6,8 @@
   /* min-width: 100%; */
   /* min-height: 100%; */
   background-size: cover;
-  /* background-position: center; */
+  background-position: center;
+  background-attachment: fixed;
   /* overflow-y: scroll; */
   /* justify-content: center; */
   /* align-items: center; */

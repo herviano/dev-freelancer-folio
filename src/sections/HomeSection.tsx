@@ -4,6 +4,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Carousel from '../components/Carousel';
 import SectionStyle from '../components/SectionStyle';
+import { USER_PAGES } from '../routes/path';
 
 export const HomeSectionContainer = styled(SectionStyle)(()=>({
     marginTop:"60px",
@@ -45,7 +46,7 @@ function HomeSection() {
             <Stack direction={"row"} spacing={1}>
             <Typography sx={{color:"#CDC099", fontSize:"15px", fontWeight:700}}>Creative</Typography><Typography sx={{fontSize:"15px", fontWeight:700}}>Freelancer</Typography>
             </Stack>
-            <HomeButton to={''}>
+            <HomeButton to={USER_PAGES.contact}>
                 <Typography sx={{fontSize:"10px", fontWeight:700}} >GET IN TOUCH</Typography>
             </HomeButton>
             {/* <Carousel items={["images/one.jpg" , "images/two.jpg", "images/three.jpg", "images/four.jpg", "images/two.jpg", "images/one.jpg" ,]} itemsToShow={2} itemsToScroll={1} interval={1000}/> */}
