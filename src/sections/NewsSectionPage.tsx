@@ -19,10 +19,6 @@ const NewsSectionPageContainer = styled(SectionStyle)(()=>({
 function NewsSectionPage() {
     return (
         <NewsSectionPageContainer>
-            {/* <BlogCarousel/> */}
-            {/* <NewsCard/> */}
-            {/* <NewsCard/> */}
-            {/* <NewsCard/> */}
             <PortFolioComponent/>
         </NewsSectionPageContainer>
     );
